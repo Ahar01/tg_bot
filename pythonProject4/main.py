@@ -10,6 +10,8 @@ async def main():
     logging.basicConfig(level=logging.INFO)
 
     # Создаем объект бота
+    # Нужно будет создать у себя файл config.py (на уровне main.py)
+    # и создать там переменную с названием config
     bot = Bot(token=config.token)
 
     # Диспечер
